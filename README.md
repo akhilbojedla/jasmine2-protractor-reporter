@@ -6,11 +6,11 @@ Reporter for Protractor that will capture a screenshot after each executed test 
 ## Usage
 The <code>protractor-jasmine2-screenshot-reporter</code> is available via npm:
 
-<code>$ npm install protractor-jasmine2-screenshot-reporter --save-dev</code>
+<code>$ npm install -g --save https://github.com/akhilbojedla/jasmine2-protractor-reporter</code>
 
 In your Protractor configuration file, register protractor-jasmine2-screenshot-reporter in jasmine:
 
-<pre><code>var HtmlScreenshotReporter = require('protractor-jasmine2-screenshot-reporter');
+<pre><code>var HtmlScreenshotReporter = require('jasmine2-protractor-reporter');
 
 var reporter = new HtmlScreenshotReporter({
   dest: 'target/screenshots',
